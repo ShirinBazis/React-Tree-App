@@ -1,0 +1,38 @@
+pre {
+  color: darkblue;
+}
+
+.spaces {
+  font-family: monospace;
+  white-space: pre;
+}
+
+.node-content.selected {
+  background-color: #66afec;
+  width: 100%;
+}
+
+.toggle-icon {
+  cursor: pointer;
+  background-color: #e8e5e5;
+  border-style: solid;
+  border-color: hsl(0, 1%, 50%);
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.node-name {
+  cursor: pointer;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#file {
+  margin-left: 8px;
+}
+
+.animation-content {
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
